@@ -1,0 +1,493 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    text-transform: uppercase;
+}
+
+.center-img {
+    margin: 0 auto;
+    width: 80%;
+}
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    border: 1px solid black;
+    border-radius: 8px;
+}
+
+td,
+th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+footer {
+    width: 100%;
+    background-color: gray;
+    left: 0;
+    height: 160px;
+    position: absolute;
+}
+
+tr:nth-child(1) {
+    background-color: #00f;
+}
+
+.center {
+    text-align: center;
+    font-weight: 900;
+}
+
+.filter-img {
+    filter: grayscale();
+}
+
+.rounded-img {
+    border-radius: 25px;
+}
+
+.container {
+    margin: 5px auto;
+    padding: 5px 10px;
+    text-align: center;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    border-radius: 8px;
+}
+
+
+/* ---------------------------------------------------
+    Photo Overlay transitions
+--------------------------------------------------- */
+
+.text-photo {
+    position: relative;
+    border-radius: 8px;
+    padding: 2px;
+    border: 1px solid #021a40;
+    box-shadow: 2px 2px 10px 0 rgba(0, 0, 0, 0.7);
+    /*=============================================*/
+    line-height: 0;
+    letter-spacing: 105%;
+    margin-bottom: 2em;
+    overflow: hidden;
+    background-color: navy;
+}
+
+.text-container {
+    text-align: center;
+    margin: 15px auto;
+    width: 80%;
+}
+
+.text-container img {
+    max-width: 100%;
+    width: 100%;
+}
+
+.text-overlay {
+    color: #fff;
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    padding: 0 50px;
+    background-color: rgba(0, 0, 0, .5);
+}
+
+
+/* ---------------------------------------------------
+    Photo Overlay transitions
+--------------------------------------------------- */
+
+.photo {
+    position: relative;
+    line-height: 0;
+    margin-bottom: 2em;
+    overflow: hidden;
+    border-radius: 8px;
+    padding: 1px;
+    border: 1px solid #021a40;
+    background-color: navy;
+    box-shadow: 2px 2px 10px 0 rgba(0, 0, 0, 0.7);
+}
+
+.photo-container {
+    text-align: center;
+    margin: 15px auto;
+    width: 80%;
+}
+
+.photo-container img {
+    max-width: 100%;
+    width: 100%;
+}
+
+.photo-overlay {
+    color: #fff;
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    padding-left: 20px;
+    padding-right: 2px;
+    background-color: rgba(0, 0, 0, .5);
+}
+
+
+/* ---------------------------------------------------
+    Photo Overlay transitions
+--------------------------------------------------- */
+
+.photo-overlay {
+    opacity: 0;
+    transition: opacity 500ms;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.photo-overlay p {
+    width: 100%;
+    height: 100%;
+    color: #fff;
+}
+
+.photo-overlay:hover {
+    opacity: 1;
+}
+
+.photo img {
+    transition: transform .5s;
+    transform-origin: 50% 50%;
+}
+
+.photo:hover img {
+    transform: scale(1.1);
+}
+
+
+/* ---------------------------------------------------
+    End Photo Overlay transitions
+--------------------------------------------------- */
+
+ul {
+    list-style: none;
+}
+
+.main {
+    padding-top: 40px;
+    margin-top: 80px;
+}
+
+.menu-container {
+    max-height: 340px;
+    margin: 0% auto;
+    content: "";
+    width: 100%;
+    position: fixed;
+    z-index: 100;
+}
+
+.navbar {
+    overflow: hidden;
+    background-color: #333;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: block;
+}
+
+.navbar a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 16px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    width: 100px;
+}
+
+.navbar a:hover {
+    background: #ddd;
+    color: black;
+    border-radius: 8px;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.column {
+    float: left;
+    width: 50%;
+    height: auto;
+    padding: 5px;
+    text-align: center;
+    color: white;
+    background-color: indigo;
+    border: 1px solid black;
+    border-radius: 8px;
+}
+
+.column_container {
+    margin: 0 auto;
+    width: auto;
+}
+
+
+/* Clear floats after the columns */
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+p {
+    margin: 0 auto;
+    padding: 10px;
+    content: "";
+}
+
+p:hover {
+    color: whitesmoke;
+    background-color: indigo;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+video {
+    background-color: lightskyblue;
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 2px;
+    border: 1px solid black;
+    border-radius: 8px;
+}
+
+
+/* ---------------------------------------------------
+    video Overlay transitions
+--------------------------------------------------- */
+
+.video {
+    position: relative;
+    line-height: 0;
+    margin-bottom: 2em;
+    overflow: hidden;
+    border-radius: 8px;
+    padding: 1px;
+    border: 1px solid #021a40;
+    background-color: navy;
+    box-shadow: 2px 2px 10px 0 rgba(0, 0, 0, 0.7);
+}
+
+.video-container {
+    text-align: center;
+    margin: 15px auto;
+    width: 80%;
+}
+
+.video-container video {
+    max-width: 100%;
+    width: 100%;
+}
+
+.video-overlay {
+    color: #fff;
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    padding-left: 20px;
+    padding-right: 2px;
+    background-color: rgba(0, 0, 0, .5);
+}
+
+
+/* ---------------------------------------------------
+    video Overlay transitions
+--------------------------------------------------- */
+
+.video-overlay {
+    opacity: 0;
+    transition: opacity 500ms;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.video-overlay p {
+    width: 100%;
+    height: 100%;
+    color: #fff;
+}
+
+.video-overlay:hover {
+    opacity: 1;
+}
+
+
+/* ---------------------------------------------------
+    End Photo Overlay transitions
+--------------------------------------------------- */
+
+.email-form {
+    width: 80%;
+    padding: 10px;
+    border-radius: 8px;
+    margin: 0px auto;
+    background-color: rgba(45, 65, 100, .3);
+    box-shadow: -1px -1px 1px 0 rgba(0, 0, 0, 0.1), 1px 2px 10px 0 rgba(0, 0, 0, 0.5);
+}
+
+.email-form h2 {
+    width: 70%;
+    text-align: center;
+    margin: 0 auto;
+    color: whitesmoke;
+    font-weight: 500;
+    font-size: 1.3em;
+    letter-spacing: 0pt;
+    word-spacing: 0pt;
+}
+
+.email-form h2 span {
+    width: 70%;
+    text-align: center;
+    margin: 0 auto;
+    color: whitesmoke;
+    font-weight: 900;
+    font-size: 1.5em;
+    font-variant: small-caps;
+    letter-spacing: 0.4pt;
+    word-spacing: 0.3pt;
+}
+
+.email-form p {
+    color: whitesmoke;
+    width: 50%;
+    margin: 0 auto;
+}
+
+.email-form form {
+    font-size: 1.5em;
+    outline: none;
+    color: #8d8e8f;
+    padding: 12px 12px;
+    width: 80%;
+    border: 1px solid #808080;
+    text-align: center;
+    margin: 2% auto;
+    border-radius: 8px;
+    background: rgb(227, 222, 222);
+    box-shadow: 2px 2px 3px 0px rgba(0, 0, 0, 0.3);
+    font-family: 'Raleway', sans-serif;
+}
+
+.email-form input[type="text"],
+.email-form input[type="email"],
+.email-form textarea {
+    font-size: 15px;
+    outline: none;
+    font-weight: 600;
+    color: #7880af;
+    padding: 2% 1% 2% 7%;
+    width: 90%;
+    border-right: 1px solid #424549;
+    border-bottom: 1px solid #424549;
+    border-left: 1px solid #090b0d;
+    text-align: center;
+    margin: 10px 1em;
+    border-radius: 7px;
+    background: #13161b;
+    box-shadow: inset 0px 3px 0px 0px rgba(5, 5, 5, 0.15);
+    font-family: 'Raleway', sans-serif;
+}
+
+.email-form textarea {
+    width: 90%;
+    height: 150px;
+}
+
+.email-form input[type="text"]:hover,
+.email-form input[type="email"]:hover,
+.email-form textarea:hover {
+    box-shadow: 0 0 18px rgba(45, 65, 100, .8)
+}
+
+.form-spacer {
+    padding: 30px 39px;
+}
+
+.terms {
+    margin: 30px 1px 0 0;
+    padding-left: 52px;
+    font-size: 14px;
+    line-height: 5px;
+    color: black;
+    cursor: pointer;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+    margin-top: 13%;
+}
+
+.terms:hover {
+    color: orange;
+    text-decoration: underline;
+}
+
+.email-form input[type="submit"],
+.email-form button[type="submit"] {
+    color: rgb(225, 225, 225);
+    cursor: pointer;
+    border: none;
+    font-weight: 900;
+    outline: none;
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    margin: 0px 3%;
+    padding: 7px 0px;
+    width: 25%;
+    font-size: 18px;
+    transition: border-color 0.3s color 0.3s background-color 0.3s;
+    border-radius: 7px;
+    background-color: #797a7b;
+    box-shadow: 1px 1px 4px 0 rgba(0, 0, 0, 0.3);
+}
+
+.email-form input[type="submit"]:hover,
+.email-form button[type="submit"]:hover {
+    color: black;
+    background-color: #8d8e8f;
+    box-shadow: 1px 1px 4px 0 rgba(0, 0, 0, 0.5);
+}
+
+
+/* ---------------------------------------------------
+    End Form
+--------------------------------------------------- */
+
+
+/* On screens that are 600px wide or less, make the menu links stack on top of each other instead of next to each other */
+
+@media screen and (max-width: 900px) {
+    .navbar a {
+        float: left;
+        width: 100%;
+    }
+    .main {
+        /* padding-top: 240px; */
+        margin-top: 680px;
+    }
+}
